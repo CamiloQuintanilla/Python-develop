@@ -1,6 +1,6 @@
 import sqlite3
 
-conect = sqlite3.connect('dbconection.db')
+conect = sqlite3.connect('./SQLitePython/dbconection.db')
 
 cursor = conect.cursor()
 
