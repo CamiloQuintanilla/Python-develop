@@ -64,7 +64,6 @@ while request != "salir":
         )
 
         user_identified=load_login.user_identify()
-        print(user_identified) #eliminar luego
         action_notes= action.login_notes(user_identified[1])
 
         notes = Notes(  
